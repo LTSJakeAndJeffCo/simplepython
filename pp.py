@@ -40,5 +40,7 @@ class Window:
         self.skybox: tex = tex([[0000],[0000],[0000],[0000]])
 
 file = open(input(), "r")
+print("Hello PP users!")
 for line in file:
     exec(line)
+print("Executed")
